@@ -1,13 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package homework.task.second;
 
-/**
- *
- * @author tenzor
- */
 public class ClassMain {
     
+    public static void main(String args[]) {
+        ClassObjectMapper ObjMap = new ClassObjectMapper();
+        ClassSimpleBin simplebin = new ClassSimpleBin();
+        ObjMap.save(simplebin);
+        ObjMap.saveByConfig();
+    }    
 }
