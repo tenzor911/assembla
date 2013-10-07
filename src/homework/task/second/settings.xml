@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testclass name="objectmapper">
+  <composition id ="1">
+    <variable type="String" name="name">SampleName</variable>
+    <variable amount="int" name="index">10</variable>
+    <variable amount="boolean" name="trigger">true</variable>
+  </composition>
+</testclass>
